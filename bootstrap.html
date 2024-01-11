@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Bootstrap Example</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+</head>
+<body>
+
+<nav class="navbar navbar-expand-sm navbar-dark bg-dark">
+  <div class="container-fluid">
+ <a class="navbar-brand" href="#">
+      <img src="C:\Users\karthikeyan\OneDrive\ドキュメント\HTML\images.jpeg" alt="Logo" style="width:70px;" class="rounded-pill">
+    </a>
+ <div class="dropdown">
+    <button type="button" class="btn btn-danger dropdown-toggle" data-bs-toggle="dropdown">
+     SELECT BRAND
+    </button>
+    <ul class="dropdown-menu">
+      <li><a class="dropdown-item" href="https://www.asus.com/in/microsite/buy-laptop-online/?gad_source=1&gclid=Cj0KCQiA1rSsBhDHARIsANB4EJZodf8o1wWaztLcptdEk5UvshLfCp3oOTEIwbMJWiHlImwdcIPcCisaAm2vEALw_wcB" target="_blank">ASUS</a></li>
+      <li><a class="dropdown-item" href="https://www.lenovo.com/in/en/d/deals/?orgRef=https%253A%252F%252Fwww.google.com%252F&gclid=Cj0KCQiA1rSsBhDHARIsANB4EJYil_uFZGBRk-0-_F2ABiIlz-EVV3D0s8ieBaLXp6o3ZRRxGIdqNhMaAk-6EALw_wcB&sortBy=priceUp&visibleDatas=4376%3ALOQ%2CLegion%2CIdeaPad%2CYoga&cid=in:sem:3vtp7d&gad_source=1&s_kwcid=AL!8093!3!685962845909!e!!g!!lenovo&ef_id=ZXnR6AAGqu75VQBH:20231228163137:s"target="_blank">LENOVO</a></li>
+      <li><a class="dropdown-item" href="https://www.dell.com/en-in"target="_blank">DELL</a></li>
+    </ul>
+  </div>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mynavbar">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="mynavbar">
+      <ul class="navbar-nav me-auto">
+        <li class="nav-item">
+          <a class="nav-link" href="javascript:void(0)">EMAIL</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="javascript:void(0)">USER ID INFO</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="javascript:void(0)">CONTACT</a>
+        </li>
+      </ul>
+      <form class="d-flex">
+        <input class="form-control me-2" type="text" placeholder="Search">
+        <button class="btn btn-danger" type="button">Search</button>
+      </form>
+    </div>
+  </div>
+</nav>
+<!-- Carousel -->
+<div id="demo" class="carousel slide" data-bs-ride="carousel">
+
+  <!-- Indicators/dots -->
+  <div class="carousel-indicators">
+    <button type="button" data-bs-target="#demo" data-bs-slide-to="0" class="active"></button>
+    <button type="button" data-bs-target="#demo" data-bs-slide-to="1"></button>
+    <button type="button" data-bs-target="#demo" data-bs-slide-to="2"></button>
+  </div>
+  
+  <!-- The slideshow/carousel -->
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img src="C:\Users\karthikeyan\OneDrive\ドキュメント\HTML\W1ilPkY.jpg" alt="ASUS" class="d-block" style="width:100%">
+    </div>
+    <div class="carousel-item">
+      <img src="C:\Users\karthikeyan\OneDrive\ドキュメント\HTML\desktop-wallpaper-lenovo-gaming-lenovo-logo.jpg" alt="LENOVO" class="d-block" style="width:100%">
+    </div>
+    <div class="carousel-item">
+      <img src="C:\Users\karthikeyan\OneDrive\ドキュメント\HTML\4588537-alienware-green-computer-pc-gaming.jpg"alt="DELL" class="d-block" style="width:100%">
+    </div>
+  </div>
+  
+  <!-- Left and right controls/icons -->
+  <button class="carousel-control-prev" type="button" data-bs-target="#demo" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon"></span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#demo" data-bs-slide="next">
+    <span class="carousel-control-next-icon"></span>
+  </button>
+</div>
+<div class="pagination justify-content-center">
+  <ul class="pagination">
+  <li class="page-item"><a class="page-link"
+  href="#">Previous</a></li>
+  <li class="page-item"><a class="page-link"
+  href="https://kongu.edu">1</a></li>
+  <li class="page-item"><a class="page-link"
+  href="https://kongu.edu">2</a></li>
+  <li class="page-item"><a class="page-link"
+  href="https://kongu.edu">3</a></li>
+  <li class="page-item"><a class="page-link" href="#">Next</a></li>
+  </ul>
+  </div>
+
+</body>
+</html>
